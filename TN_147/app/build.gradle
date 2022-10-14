@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+ext {
+    play_services_version = "15.0.1"
+    support_version = "27.1.1"
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "31.0.0"
+
+    defaultConfig {
+        applicationId "com.ftdi.javad2xxdemo"
+        minSdkVersion 14
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+task wrapper(type: Wrapper){
+    gradleVersion = '7.2'
+}
+
+dependencies {
+    //implementation 'com.android.support:support-v4:18.0.0'
+    implementation "com.android.support:appcompat-v7:$support_version"
+    implementation "com.android.support:design:$support_version"
+
+    // Google Drive
+    implementation "com.google.android.gms:play-services-auth:$play_services_version"
+    implementation "com.google.android.gms:play-services-drive:$play_services_version"
+    implementation 'com.squareup.okio:okio:1.14.0'
+
+    implementation files('libs/d2xx.jar')
+}
+

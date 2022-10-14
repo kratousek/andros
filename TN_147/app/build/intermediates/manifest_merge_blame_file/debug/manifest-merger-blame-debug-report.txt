@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ftdi.javad2xxdemo"
+4    android:versionCode="1"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.usb.host" />
+11-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:6:2-59
+11-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:6:16-56
+12
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:44:5-80
+13-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:44:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:45:5-80
+14-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:45:22-77
+15
+16    <application
+16-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:8:5-42:19
+17        android:debuggable="true"
+18        android:icon="@drawable/ic_launcher"
+18-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:9:9-45
+19        android:label="@string/app_name"
+19-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:10:9-41
+20        android:testOnly="true" >
+21        <service
+21-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:11:9-93
+22            android:name="com.ftdi.javad2xxdemo.services.BitBangModeIntentService"
+22-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:11:18-67
+23            android:enabled="true" />
+23-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:11:69-91
+24        <service
+24-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:12:9-87
+25            android:name="com.ftdi.javad2xxdemo.services.BitBangModeService"
+25-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:12:18-61
+26            android:enabled="true" />
+26-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:12:63-85
+27
+28        <activity
+28-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:13:9-40:20
+29            android:name="com.ftdi.javad2xxdemo.FragmentLayout"
+29-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:14:13-43
+30            android:configChanges="keyboardHidden|orientation|screenSize"
+30-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:17:13-74
+31            android:exported="true"
+31-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:18:13-36
+32            android:label="@string/title_activity_main"
+32-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:15:13-56
+33            android:launchMode="singleTask" >
+33-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:16:13-44
+34            <intent-filter>
+34-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:22:17-69
+35-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:24:17-77
+37-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39            <intent-filter>
+39-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:27:13-29:29
+40                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+40-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:28:17-90
+40-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:28:25-87
+41            </intent-filter>
+42
+43            <meta-data
+43-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:31:13-32:57
+44                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+44-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:31:24-86
+45                android:resource="@xml/device_filter" />
+45-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:32:17-54
+46            <meta-data
+46-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:34:13-36:73
+47                android:name="com.google.android.gms.version"
+47-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:35:17-62
+48                android:value="@integer/google_play_services_version" />
+48-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:36:17-70
+49        </activity>
+50        <activity android:name="com.ftdi.javad2xxdemo.FragmentLayout$DetailsActivity" />
+50-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:41:9-67
+50-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:41:19-65
+51        <activity
+51-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:23:9-27:75
+52            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+52-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:24:13-93
+53            android:excludeFromRecents="true"
+53-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:25:13-46
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:26:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:27:13-72
+56        <!--
+57            Service handling Google Sign-In user revocation. For apps that do not integrate with
+58            Google Sign-In, this service will never be started.
+59        -->
+60        <service
+60-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:33:9-36:110
+61            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+61-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:34:13-89
+62            android:exported="true"
+62-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:35:13-36
+63            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+63-->[com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:36:13-107
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:34:13-36:73
+71            android:name="com.google.android.gms.version"
+71-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:35:17-62
+72            android:value="@integer/google_play_services_version" />
+72-->/Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:36:17-70
+73    </application>
+74
+75</manifest>

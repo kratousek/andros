@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ftdi.javad2xxdemo.app-mergeDebugResources-13:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

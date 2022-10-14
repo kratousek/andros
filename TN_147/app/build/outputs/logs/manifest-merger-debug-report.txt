@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [com.android.support:design:27.1.1] /Users/krata/.gradle/caches/transforms-3/1baf750c7cfb2e572bb5d154d0253a38/transformed/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/krata/.gradle/caches/transforms-3/b6711e6bbd915a31ea4d7bddb45e3628/transformed/play-services-drive-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/krata/.gradle/caches/transforms-3/04998af6a0469e00d677b6423e7f0523/transformed/play-services-auth-api-phone-15.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/224e1b6aa53938df0486417475f9c0a9/transformed/play-services-auth-base-15.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/krata/.gradle/caches/transforms-3/4232cf63712952542290df333512f827/transformed/play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/krata/.gradle/caches/transforms-3/9b5011d66e5afb4cde4cd6fb27556052/transformed/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/krata/.gradle/caches/transforms-3/9db58ee3ce4ba263f21380f5d24d0674/transformed/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/krata/.gradle/caches/transforms-3/196fc8a03f6b3968a7c177ff5751e8a7/transformed/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/krata/.gradle/caches/transforms-3/3c841d712adb311d7c6a6e1b48df8881/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/krata/.gradle/caches/transforms-3/67adc2e0388428b62bbeefc57b0ca4f1/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/krata/.gradle/caches/transforms-3/dc3ad94773ec6bb6c7f93f39217d63a1/transformed/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/krata/.gradle/caches/transforms-3/2250081c8901db0fcc2d9577ac5f1701/transformed/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/krata/.gradle/caches/transforms-3/642cf3e29e15283a0ac813899a04cbf1/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/krata/.gradle/caches/transforms-3/3a1d010179f5aa62fc1794e6d450b3de/transformed/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/krata/.gradle/caches/transforms-3/c6de16b56a2f42b224ee588dc8ae64ff/transformed/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/krata/.gradle/caches/transforms-3/4f2eae9137cee2176484a88b20d05026/transformed/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krata/.gradle/caches/transforms-3/f2e210569f63683669641a18fa10471c/transformed/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krata/.gradle/caches/transforms-3/c383ebe735f2e2d1fd53c6532f1e975c/transformed/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krata/.gradle/caches/transforms-3/5fa975974d956b9b3c8bd3bf53f05a21/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/krata/.gradle/caches/transforms-3/4ecfb1250ce37dda189a89ded9c6a1d1/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:6:2-59
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:6:16-56
+application
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:8:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/krata/.gradle/caches/transforms-3/b6711e6bbd915a31ea4d7bddb45e3628/transformed/play-services-drive-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/krata/.gradle/caches/transforms-3/b6711e6bbd915a31ea4d7bddb45e3628/transformed/play-services-drive-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/krata/.gradle/caches/transforms-3/4232cf63712952542290df333512f827/transformed/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/krata/.gradle/caches/transforms-3/4232cf63712952542290df333512f827/transformed/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/krata/.gradle/caches/transforms-3/9b5011d66e5afb4cde4cd6fb27556052/transformed/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/krata/.gradle/caches/transforms-3/9b5011d66e5afb4cde4cd6fb27556052/transformed/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+	android:label
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:9:9-45
+service#com.ftdi.javad2xxdemo.services.BitBangModeIntentService
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:11:9-93
+	android:enabled
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:11:69-91
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:11:18-67
+service#com.ftdi.javad2xxdemo.services.BitBangModeService
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:12:9-87
+	android:enabled
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:12:63-85
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:12:18-61
+activity#com.ftdi.javad2xxdemo.FragmentLayout
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:13:9-40:20
+	android:label
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:15:13-56
+	android:launchMode
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:16:13-44
+	android:exported
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:18:13-36
+	android:configChanges
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:14:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:27:13-29:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:28:17-90
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:28:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:31:13-32:57
+	android:resource
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:32:17-54
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:31:24-86
+meta-data#com.google.android.gms.version
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:34:13-36:73
+	android:value
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:36:17-70
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:35:17-62
+activity#com.ftdi.javad2xxdemo.FragmentLayout$DetailsActivity
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:41:9-67
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:41:19-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:44:5-80
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:44:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:45:5-80
+	android:name
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml:45:22-77
+uses-sdk
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/krata/.gradle/caches/transforms-3/1baf750c7cfb2e572bb5d154d0253a38/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/krata/.gradle/caches/transforms-3/1baf750c7cfb2e572bb5d154d0253a38/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/krata/.gradle/caches/transforms-3/b6711e6bbd915a31ea4d7bddb45e3628/transformed/play-services-drive-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:15.0.1] /Users/krata/.gradle/caches/transforms-3/b6711e6bbd915a31ea4d7bddb45e3628/transformed/play-services-drive-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/krata/.gradle/caches/transforms-3/04998af6a0469e00d677b6423e7f0523/transformed/play-services-auth-api-phone-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /Users/krata/.gradle/caches/transforms-3/04998af6a0469e00d677b6423e7f0523/transformed/play-services-auth-api-phone-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/224e1b6aa53938df0486417475f9c0a9/transformed/play-services-auth-base-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/224e1b6aa53938df0486417475f9c0a9/transformed/play-services-auth-base-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/krata/.gradle/caches/transforms-3/4232cf63712952542290df333512f827/transformed/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/krata/.gradle/caches/transforms-3/4232cf63712952542290df333512f827/transformed/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/krata/.gradle/caches/transforms-3/9b5011d66e5afb4cde4cd6fb27556052/transformed/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/krata/.gradle/caches/transforms-3/9b5011d66e5afb4cde4cd6fb27556052/transformed/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/krata/.gradle/caches/transforms-3/9db58ee3ce4ba263f21380f5d24d0674/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/krata/.gradle/caches/transforms-3/9db58ee3ce4ba263f21380f5d24d0674/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/krata/.gradle/caches/transforms-3/196fc8a03f6b3968a7c177ff5751e8a7/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/krata/.gradle/caches/transforms-3/196fc8a03f6b3968a7c177ff5751e8a7/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/krata/.gradle/caches/transforms-3/3c841d712adb311d7c6a6e1b48df8881/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/krata/.gradle/caches/transforms-3/3c841d712adb311d7c6a6e1b48df8881/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/krata/.gradle/caches/transforms-3/67adc2e0388428b62bbeefc57b0ca4f1/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/krata/.gradle/caches/transforms-3/67adc2e0388428b62bbeefc57b0ca4f1/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/krata/.gradle/caches/transforms-3/dc3ad94773ec6bb6c7f93f39217d63a1/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/krata/.gradle/caches/transforms-3/dc3ad94773ec6bb6c7f93f39217d63a1/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/krata/.gradle/caches/transforms-3/2250081c8901db0fcc2d9577ac5f1701/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/krata/.gradle/caches/transforms-3/2250081c8901db0fcc2d9577ac5f1701/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/krata/.gradle/caches/transforms-3/642cf3e29e15283a0ac813899a04cbf1/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/krata/.gradle/caches/transforms-3/642cf3e29e15283a0ac813899a04cbf1/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/krata/.gradle/caches/transforms-3/3a1d010179f5aa62fc1794e6d450b3de/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/krata/.gradle/caches/transforms-3/3a1d010179f5aa62fc1794e6d450b3de/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/krata/.gradle/caches/transforms-3/c6de16b56a2f42b224ee588dc8ae64ff/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/krata/.gradle/caches/transforms-3/c6de16b56a2f42b224ee588dc8ae64ff/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/krata/.gradle/caches/transforms-3/4f2eae9137cee2176484a88b20d05026/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/krata/.gradle/caches/transforms-3/4f2eae9137cee2176484a88b20d05026/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krata/.gradle/caches/transforms-3/f2e210569f63683669641a18fa10471c/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/krata/.gradle/caches/transforms-3/f2e210569f63683669641a18fa10471c/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krata/.gradle/caches/transforms-3/c383ebe735f2e2d1fd53c6532f1e975c/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/krata/.gradle/caches/transforms-3/c383ebe735f2e2d1fd53c6532f1e975c/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krata/.gradle/caches/transforms-3/5fa975974d956b9b3c8bd3bf53f05a21/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/krata/.gradle/caches/transforms-3/5fa975974d956b9b3c8bd3bf53f05a21/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/krata/.gradle/caches/transforms-3/4ecfb1250ce37dda189a89ded9c6a1d1/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/krata/.gradle/caches/transforms-3/4ecfb1250ce37dda189a89ded9c6a1d1/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		ADDED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/krata/src/AndroidStudioProjects/TN_147/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] /Users/krata/.gradle/caches/transforms-3/26dd4198f7c9494f495ef0039808fff0/transformed/play-services-auth-15.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/krata/.gradle/caches/transforms-3/0e30add5caf47c60e7b84c7a512369fe/transformed/play-services-base-15.0.1/AndroidManifest.xml:24:13-79

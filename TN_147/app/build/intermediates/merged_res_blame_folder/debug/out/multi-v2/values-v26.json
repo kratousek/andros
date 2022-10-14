@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ftdi.javad2xxdemo.app-mergeDebugResources-13:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/1baf750c7cfb2e572bb5d154d0253a38/transformed/design-27.1.1/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,299",
+                        "endLines": "5,6",
+                        "endColumns": "12,96",
+                        "endOffsets": "294,391"
+                    },
+                    "to": {
+                        "startLines": "16,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "796,1133",
+                        "endLines": "19,21",
+                        "endColumns": "12,96",
+                        "endOffsets": "1035,1225"
+                    }
+                },
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,20",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,1040",
+                        "endLines": "2,3,7,11,15,20",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,1128"
+                    }
+                }
+            ]
+        }
+    ]
+}

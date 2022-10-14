@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ftdi.javad2xxdemo.app-mergeDebugResources-13:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/1baf750c7cfb2e572bb5d154d0253a38/transformed/design-27.1.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

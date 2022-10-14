@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ftdi.javad2xxdemo.app-mergeDebugResources-13:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/4f2eae9137cee2176484a88b20d05026/transformed/support-compat-27.1.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/krata/.gradle/caches/transforms-3/443662569a3bc76086f25747135dfccd/transformed/appcompat-v7-27.1.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

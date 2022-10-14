@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_ft4232htest.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_ft4232htest.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_rs232pinconfig.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_rs232pinconfig.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_ft4222_i2c_master.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_ft4222_i2c_master.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_status.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_status.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_bit_mode_service.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_bit_mode_service.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/xml_provider_paths.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout-large_fragment_layout.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout-large/fragment_layout.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_mpse.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_mpse.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_ft2232htest.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_ft2232htest.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_event.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_event.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_information.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_information.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/xml_device_filter.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_opendevice.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_opendevice.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_bitmode.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_bitmode.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_fragment_layout.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/fragment_layout.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_eeprom_userarea.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_eeprom_userarea.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/drawable-hdpi_button_pattern.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/drawable-hdpi/button_pattern.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_uart.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_uart.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_misc.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_misc.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_eeprom.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_eeprom.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_my_spinner_textview.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/my_spinner_textview.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_pidvid.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_pidvid.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_ft4222_spi_master.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_ft4222_spi_master.xml"
+    },
+    {
+        "merged": "com.ftdi.javad2xxdemo.app-merged_res-15:/layout_device_filetransfer.xml.flat",
+        "source": "com.ftdi.javad2xxdemo.app-main-17:/layout/device_filetransfer.xml"
+    }
+]
