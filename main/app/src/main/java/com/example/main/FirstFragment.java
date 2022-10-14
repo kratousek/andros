@@ -582,9 +582,11 @@ public class FirstFragment extends Fragment{
                     System.out.println(p.getX()+" "+p.getY());
                 }
 
+                int i = 0;
                 DataPoint[] values = new DataPoint[arl.size()];
                 for (DataPoint p: arl){
                     DataPoint v = new DataPoint(p.getX(),p.getY());
+                    values[i++] = v;
                 }
 
                 GraphView graphView = binding.idGraphView;
