@@ -11,6 +11,7 @@ import java.time.ZoneOffset;
 
 import com.example.main.OnGeekEventListener;
 import com.example.main.TMereni;
+import com.example.main.PacketType;
 
 public class pars {
     static private byte[] fBuf ;
@@ -18,7 +19,7 @@ public class pars {
     static private int fMicroInter = 1279;
     static private double fMicroSlope = (8890.0 / ( 34000.0 - 1279.0));
     static private int tmpNan = -100;
-
+    static private int Z_YEAR = 1900;
     private OnGeekEventListener mListener; // listener field
 
     //@Struct
@@ -344,6 +345,7 @@ public class pars {
         for (String val: reply.split("@")){
             // prevedu z hexa
             //System.out.println(val);
+            fMereni.packetType = PacketType.NONE;
 
             if (val.startsWith("D"))
             {
@@ -351,6 +353,8 @@ public class pars {
                 if (val.startsWith("DD")){
                     // nabij struct TMereni
                     disassembleDate(val,fMereni);
+                    fMereni.dtm = new Date(fMereni.year-Z_YEAR,fMereni.month-1,fMereni.day,0,0,1);
+                    fMereni.packetType = PacketType.DATUM;
 
                     // preved na datetime
                    // OffsetDateTime odtUtc = odt.withOffsetSameInstant( ZoneOffSet.UTC ) ;
@@ -360,7 +364,8 @@ public class pars {
                     //str = str + String.format("%s %02d.%02d.%02d %02d:%02d t1=%2.1f hum=%d \r\n",val,fMereni.year,fMereni.month,fMereni.day, fMereni.hh,fMereni.mm,fMereni.t1,fMereni.hum);
                     String off = String.valueOf(fMereni.gtm / 4);
                     //fMereni.dtm = OffsetDateTime.of(LocalDateTime.of(fMereni.year,fMereni.month,fMereni.day,fMereni.hh,fMereni.mm,fMereni.ss,0),ZoneOffset.of("+2.0"));
-                    fMereni.dtm = new Date(fMereni.year,fMereni.month,fMereni.day,fMereni.hh,fMereni.mm,fMereni.ss);
+                    fMereni.dtm = new Date(fMereni.year-Z_YEAR,fMereni.month-1,fMereni.day,fMereni.hh,fMereni.mm,fMereni.ss);
+                    fMereni.packetType = PacketType.DATA;
                 }
 
                 // odvysilej data callbackem do grafu, eventuelne do sqLite tabulky

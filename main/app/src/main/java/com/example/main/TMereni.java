@@ -4,9 +4,11 @@ import java.time.OffsetDateTime;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.time.Instant;
+import com.example.main.PacketType;
 
 public class TMereni {
     public String Serial;
+    public PacketType packetType;   // typ packetu, 1..datum, 2..data
     public int hh, mm, ss;    // hodiny, minuty
     public int year;
     public int month, day;   // rok/mesic/den
@@ -17,4 +19,5 @@ public class TMereni {
     public int Err;
     public int mvs;
     public Date dtm;
+
 }

@@ -2,9 +2,11 @@ package com.example.main;
 
 import static androidx.core.content.PackageManagerCompat.LOG_TAG;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.os.Environment;
@@ -18,6 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -30,6 +33,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 import com.ftdi.javad2xxdemo.uHer;
@@ -39,8 +43,9 @@ import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
-
 import android.app.Activity;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 
 public class FirstFragment extends Fragment{
@@ -64,6 +69,12 @@ public class FirstFragment extends Fragment{
     boolean uart_configured = false;
     public com.ftdi.javad2xxdemo.uHer read_thread;
 
+    private static final int REQUEST_EXTERNAL_STORAGE = 1;
+    private static String[] PERMISSIONS_STORAGE = {
+            Manifest.permission.READ_EXTERNAL_STORAGE,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE
+    };
+
 
     public void notifyUSBDeviceAttach()
     {
@@ -82,6 +93,8 @@ public class FirstFragment extends Fragment{
     ) {
 
         binding = FragmentFirstBinding.inflate(inflater, container, false);
+       // mShowCount = (TextView) findViewById(R.id.mShowCount);
+
         mShowCount = binding.showCount;
 
         try {
@@ -345,6 +358,7 @@ public class FirstFragment extends Fragment{
         return false;
     }
 
+    @SuppressLint("RestrictedApi")
     public File getAlbumStorageDir(String albumName) {
     // Get the directory for the user's public pictures directory.
         File file = new File(Environment.getExternalStoragePublicDirectory(
@@ -391,64 +405,36 @@ public class FirstFragment extends Fragment{
         });
     }
 
-    /*
-    interface OnGeekEventListener {
 
-        // this can be any type of method
-        void onGeekEvent(TMereni mer);
-    }
-     */
+    public static void verifyStoragePermissions(Activity activity) {
+        // Check if we have write permission
+        int permission = ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
-
-    public void showgraph(View v){
-        GraphView graphView;
-        // on below line we are initializing our graph view.
-        //graphView = findViewById(R.id.idGraphView);
-        graphView = binding.idGraphView;
-
-        // on below line we are adding data to our graph view.
-        LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[]{
-                // on below line we are adding
-                // each point on our x and y axis.
-                new DataPoint(0, 1),
-                new DataPoint(1, 3),
-                new DataPoint(2, 4),
-                new DataPoint(3, 9),
-                new DataPoint(4, 6),
-                new DataPoint(5, 3),
-                new DataPoint(6, 6),
-                new DataPoint(7, 1),
-                new DataPoint(8, 2)
-        });
-
-
-
-        // after adding data to our line graph series.
-        // on below line we are setting
-        // title for our graph view.
-        graphView.setTitle("My Graph View");
-
-        // on below line we are setting
-        // text color to our graph view.
-        graphView.setTitleColor(R.color.purple_200);
-
-        // on below line we are setting
-        // our title text size.
-        graphView.setTitleTextSize(18);
-
-        // on below line we are adding
-        // data series to our graph view.
-        graphView.addSeries(series);
+        if (permission != PackageManager.PERMISSION_GRANTED) {
+            // We don't have permission so prompt the user
+            ActivityCompat.requestPermissions(
+                    activity,
+                    PERMISSIONS_STORAGE,
+                    REQUEST_EXTERNAL_STORAGE
+            );
+        }
     }
 
-
-
-    public void DoGeek(TMereni mer)
-    {
-
+    public static long getDiff(Date d1, Date d2) {
+        long diff = d2.getTime() - d1.getTime();
+        return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
     public void download(View v) {
+
+       // final long  remain = 0;
+        Date act = new Date();
+
+        GraphView graphView = binding.idGraphView;
+        graphView.removeAllSeries();
+
+
+        //mShowCount = (TextView) findViewById(R.id.mShowCount);
 
         //DataPoint[] values;
         ArrayList<DataPoint> arl = new ArrayList();
@@ -458,8 +444,20 @@ public class FirstFragment extends Fragment{
                 DataPoint vx = new DataPoint(mer.dtm, mer.t1);
                 arl.add(vx);
             }
-        });
 
+            if (mer.packetType == PacketType.DATUM)
+            {
+                long remain = getDiff(mer.dtm,act);
+
+                SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+                String s = String.format("%s,  remaining: %d days ",sdf.format(mer.dtm),remain);
+
+                //Date date = new Date();
+
+                binding.mShowCount.setText(s);
+                //binding.showCount.setText(s);
+            }
+        });
 
         if (ftDev == null)
         {
@@ -514,9 +512,11 @@ public class FirstFragment extends Fragment{
             private String respond = "";
             public void run() {
 
-                try {
-                    // storage/emulated/0/Documents
-                    File file= new File ("/sdcard/Documents/dimage.txt");
+                //try {
+                    //verifyStoragePermissions(getActivity());
+                    /*
+                    //File file= new File ("/storage/emulated/0/Documents/dimage.txt");
+                    File file= new File ("./dimage.txt");
                     FileWriter fwimg;
                     if (file.exists())
                         fwimg = new FileWriter(file,false);//if file exists append to file. Works fine
@@ -526,30 +526,31 @@ public class FirstFragment extends Fragment{
                         fwimg = new FileWriter(file);
                     }
 
-                    File fileimg= new File ("/sdcard/Documents/decoded.txt");
+                    File fileimg= new File ("./decoded.txt");
                     FileWriter fwdec;
-                    if (file.exists())
+                    if (fileimg.exists())
                         fwdec = new FileWriter(fileimg,false);//if file exists append to file. Works fine
                     else
                     {
                         fileimg.createNewFile();
                         fwdec = new FileWriter(fileimg);
                     }
+                    */
 
                     String ss = "";
                     while (progressBarStatus < lastAddress) {
                         // performing operation
                         respond = read_thread.doCommand("D");
-                        fwimg.write(respond);
+                     //   fwimg.write(respond);
 
                         // einschrotter
                         ss = sc.dpacket(respond);
-                        fwdec.write(ss);
+                     //   fwdec.write(ss);
                         // LogMsg(ss);
 
                         // jakou mam aktualne adresu
                         respond = read_thread.doCommand("S");
-                        fwimg.write(respond);
+                    //    fwimg.write(respond);
 
                         fAddr = getaddr(respond);
                         progressBarStatus = fAddr;
@@ -557,59 +558,46 @@ public class FirstFragment extends Fragment{
                         // Updating the progress bar
                         progressBarHandler.post(new Runnable() {
                             public void run() {
-                                //progressBar.setProgress(progressBarStatus);
                                 binding.proBar.setProgress(progressBarStatus);
                             }
                         });
                     }
-                    fwimg.flush();
-                    fwimg.close();
+                //    fwimg.flush();
+                //    fwimg.close();
 
-                    fwdec.flush();
-                    fwdec.close();
+                //    fwdec.flush();
+                //    fwdec.close();
                     //LogMsg(file.toString());
 
+                /*
                 }
+
                 catch(IOException e)
                 {
+
+                    //Toast.makeText(getActivity(),"Cannot open file ",Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
+                 */
 
 
                 String s = String.format("Read %s measurements",arl.size());
+                binding.mShowCount.setText(s);
+
+                /*
                 for (DataPoint p: arl)
                 {
                     System.out.println(p.getX()+" "+p.getY());
                 }
+                */
 
                 int i = 0;
                 DataPoint[] values = new DataPoint[arl.size()];
                 for (DataPoint p: arl){
-                    DataPoint v = new DataPoint(p.getX(),p.getY());
+                    DataPoint v = new DataPoint(i,p.getY());
                     values[i++] = v;
                 }
-
-                GraphView graphView = binding.idGraphView;
                 graphView.addSeries(new LineGraphSeries(values));
-
-
-                /*
-                LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[]{
-                        for (DataPoint val: values)
-                            System.out.println(val.getX()+" "+val.getY());
-                        new DataPoint(0, 1),
-                        new DataPoint(1, 3),
-                        new DataPoint(2, 4),
-                        new DataPoint(3, 9),
-                        new DataPoint(4, 6),
-                        new DataPoint(5, 3),
-                        new DataPoint(6, 6),
-                        new DataPoint(7, 1),
-                        new DataPoint(8, 2)
-
-                });
-                */
-
 
                 // performing operation if file is downloaded,
                 if (progressBarStatus >= lastAddress) {
